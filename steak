@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Around SU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Food Around SU
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#food-section">ของกินรอบม.ศิลปากร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#creator-section">ผู้จัดทำ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5 text-center">
+        <h1 class="display-4 text-orange mb-4">S.U. Steak 🥩</h1>
+        <!--ใส่อาหารตรงนี้-->
+
+        <style>
+            .carousel-item img {
+                width: 100%;
+                height: 380px;
+                /* ความสูงรูปเท่ากัน */
+                object-fit: cover;
+                /* รักษาสัดส่วนภาพ */
+                border-radius: 10px;
+            }
+        </style>
+
+        <div class="container mt-5">
+
+            <div class="row align-items-center">
+
+                <!-- ซ้าย : Carousel -->
+                <div class="col-md-6 mb-4">
+
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t39.30808-6/481898838_1140179947899231_3837181470313132104_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeGBrkVvxaL0H0z7E9Iur4b5IBBemYXm864gEF6ZhebzrjGFuZi1SgYFzEHf5BlolpRTjBqhqftwyum1pNBBwFhs&_nc_ohc=UGK7Nu0UlGEQ7kNvwGiA23v&_nc_oc=AdlMAuovJPKkGRP0qHJLsCFJ5J8T93V1PZNC2iDDCgQx-JeYdMSLVeBOvKBPqrfuSH4&_nc_zt=23&_nc_ht=scontent.fkdt1-1.fna&_nc_gid=PpjHNgGYhmuJmwHx2xrWMg&_nc_ss=8&oh=00_AfzjOSwvZ0AqTWo3EEF8CJnx83nTxgHWaJTKT17ian62uQ&oe=69BCBBF8"
+                                    alt="Slide 1">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t39.30808-6/481259985_1140180014565891_6523824147449448022_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEm9vl7yZXVrkV2i_BJcoFMS5n2mwq9gdhLmfabCr2B2GuvnNs78RjWwGxYmSNk3mt6VW4M7dLc9LvnoBUB1QhT&_nc_ohc=kZJvFUmoRGAQ7kNvwGG7BFI&_nc_oc=AdnWwsb4mNCdXhH7OOHLTrFriT-1iaUA7yfQ0TN2sNbZHVMM8_8d6R9Qz73DLIjDVPo&_nc_zt=23&_nc_ht=scontent.fkdt1-1.fna&_nc_gid=7TdWuQ84oFPd6af5tqtnPg&_nc_ss=8&oh=00_AfywHh9XPH1MPAoUw1-1QYQelPrTu_pBiHfJjZFM3_ZCBg&oe=69BCD26D"
+                                    alt="Slide 2">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t39.30808-6/481325415_1140179574565935_7412376014617417219_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeHfFmi2Se6TG3fgBnnB448SjWRqZ7rpiBKNZGpnuumIEkIgqV8xy1RNCdLwZWQ8KAfBTsiY8I1jXgzpvcc3LPRF&_nc_ohc=gkH4CcbOjrwQ7kNvwE1qBbP&_nc_oc=AdmqfjrxQG1m2YRHqKJL_-9LfRLwQd0Qxl9ZealDJ147xai5Wyeb1yq5-Xr9M5hiiMU&_nc_zt=23&_nc_ht=scontent.fkdt1-1.fna&_nc_gid=GOHXQoyldlvDyjG_O-A0fA&_nc_ss=8&oh=00_AfzeLuZjBuvrh3LO3eIio-oFflysXoYnRhbbluEtAzI14g&oe=69BCB461"
+                                    alt="Slide 3">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t39.30808-6/481295409_1140179811232578_9135353867761535444_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeFAOKIreWnvVR2BJZrHAtf06HQ2_FTCeIXodDb8VMJ4hcxHqeWqE9_Hfkh8o6kQN4Wc1d20B2WYASuIl4x7jGtG&_nc_ohc=Ng0AphGsyYYQ7kNvwFBcvqL&_nc_oc=AdnOYXDd84ePgY_PRaBQNuoz242RKXOKbRMh9G-T3-tdx4eAL5x_CENkDbkoZ7arUSM&_nc_zt=23&_nc_ht=scontent.fkdt1-1.fna&_nc_gid=NyLp3zQZdVlvBlgF4qk1iQ&_nc_ss=8&oh=00_Afxz2RUdxNTZJ9-fzGCasJ1gZ06Ts146-0-E67G34diXfQ&oe=69BCA2FE"
+                                    alt="Slide 4">
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- ขวา : ข้อมูลร้าน -->
+                <div class="col-md-6 text-start lh-lg">
+
+                    <h2 class="fw-bold mb-3">S.U. Steak (เอสยู สเต็ก) 🥩</h2>
+
+                    <p class="mb-4">
+                        ร้าน S.U. Steak เป็นร้านสเต็กยอดนิยมใกล้มหาวิทยาลัยศิลปากร
+                        วิทยาเขตพระราชวังสนามจันทร์ เหมาะสำหรับนักศึกษาและคนที่มองหา
+                        อาหารอร่อยในราคาประหยัด บรรยากาศสบาย ๆ และเมนูให้เลือกหลากหลาย
+                    </p>
+
+                    <h5 class="fw-semibold">จุดเด่นของร้าน S.U. Steak</h5>
+
+                    <ul class="ps-3">
+                        <li>เปิดเอาใจสายหิวดึก ปิดประมาณ 21:00 - 22:00 น.</li>
+                        <li>สเต็กชิ้นใหญ่ ราคานักศึกษา เริ่มต้นประมาณ 39 บาท</li>
+                        <li>ซอสบาร์บีคิวสูตรเข้มข้น หมักเข้าเนื้อ</li>
+                        <li>มีเมนูหลากหลาย เช่น สเต็ก พาสต้า และของทอด</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <footer class=" text-dark py-5 mt-5" id="creator-section" style="scroll-margin-top: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <h5>ผู้จัดทำ</h5>
+                        <p class="text secondary">ธณิณธร แซ่ลี้</p>
+                        <p class="text-secondary">มณฆวรรษ ถนอมชาติ</p>
+                        <p class="text-secondary">ธนกร ม่วงเจริญ</p>
+                        <p class="text-secondary">ศิรชัช สุขเกษม</p>
+                        <p class="text-secondary">ศุภโชติ นิลบุตร</p>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <h5>เมนูทางลัด</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-secondary">หน้าแรก</a></li>
+                            <li><a href="#menu-section" class="text-secondary">เมนูอาหาร</a></li>
+                        </ul>
+                    </div>
+                    <hr class="bg-secondary">
+                    <div class="text-center text-secondary">
+                        <small>Food Around SU</small>
+                    </div>
+                </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
